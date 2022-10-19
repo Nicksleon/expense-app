@@ -1,0 +1,80 @@
+h1,
+h2,
+label,
+input,
+ul,
+li {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(199, 197, 197);
+}
+
+.main {
+  width: 1000px;
+  display: grid;
+  justify-items: center;
+}
+
+.title,
+.sub-title {
+  text-align: center;
+  margin: 0px;
+}
+
+.sub-title {
+  color: rgb(74, 174, 255);
+}
+
+.add-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.name-add-item {
+  grid-column: 1/3;
+}
+
+input {
+  width: 100%;
+  height: 20px;
+}
+
+.btn {
+  padding: 10px;
+  margin: 50px;
+
+  background-color: rgb(74, 174, 255);
+  color: aliceblue;
+  border: none;
+  font-size: 1em;
+}
+
+.content-table {
+  border-collapse: collapse;
+  width: 800px;
+}
+
+.content-table thead tr {
+  background-color: gray;
+  text-align: left;
+}
+
+.btn-remove {
+  display: inline;
+}
+
+td {
+  min-width: 100px;
+  max-width: 100px;
+}
